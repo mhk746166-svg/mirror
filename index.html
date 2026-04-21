@@ -254,7 +254,7 @@
 
             useEffect(() => {
                 const shuffled = [...QUIZ_QUESTIONS].sort(() => 0.5 - Math.random());
-                setQuizSubset(shuffled.slice(0, 3));
+                setQuizSubset(shuffled.slice(0, 5));
             }, []);
 
             // 레이저 경로 계산 (항상 내부적으로 계산하지만 화면 표시는 isFired 상태에 따름)
